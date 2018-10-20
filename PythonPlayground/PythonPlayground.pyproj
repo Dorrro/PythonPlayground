@@ -21,7 +21,31 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="1.1.py" />
+    <Compile Include="10.py" />
+    <Compile Include="2.py" />
+    <Compile Include="3.py" />
+    <Compile Include="4.py" />
+    <Compile Include="5.py" />
+    <Compile Include="6.py" />
+    <Compile Include="7.py" />
+    <Compile Include="8.py" />
+    <Compile Include="9.py" />
     <Compile Include="PythonApplication1.py" />
+    <Compile Include="zaj2\1.py" />
+    <Compile Include="zaj2\10.py" />
+    <Compile Include="zaj2\2.py" />
+    <Compile Include="zaj2\3.py" />
+    <Compile Include="zaj2\4.py" />
+    <Compile Include="zaj2\5.py" />
+    <Compile Include="zaj2\6.py" />
+    <Compile Include="zaj2\7.py" />
+    <Compile Include="zaj2\8.py" />
+    <Compile Include="zaj2\9.py" />
+    <Compile Include="zaj2\module.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="zaj2\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
