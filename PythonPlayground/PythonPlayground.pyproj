@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2ec7da37-8161-4868-b6b1-194cfd42a3b4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication1.py</StartupFile>
+    <StartupFile>zaj3\1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -43,9 +43,21 @@
     <Compile Include="zaj2\8.py" />
     <Compile Include="zaj2\9.py" />
     <Compile Include="zaj2\module.py" />
+    <Compile Include="zaj3\1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="zaj3\3.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="zaj3\" />
     <Folder Include="zaj2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="zaj3\2.py">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
